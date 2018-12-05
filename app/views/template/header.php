@@ -21,10 +21,10 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Employees</a>
+        <a class="nav-link" href="#employee">Employees</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Departments</a>
+        <a class="nav-link" href="#department">Departments</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
