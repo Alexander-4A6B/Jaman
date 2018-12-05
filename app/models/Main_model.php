@@ -1,0 +1,35 @@
+<?php
+class Main_model extends Model {
+
+    public function create($query)
+    {
+        $data = $this->db->insert($query);
+
+        return $data;
+    }
+
+    public function read($query, $params)
+    {
+        $data = $this->db->fetch($query, $params);
+
+        return $data;
+    }
+
+    public function read_all($query)
+    {
+        $data = $this->db->fetch_all($query);
+
+        return $data;
+    }
+
+    public function update($query, $params)
+    {
+        $this->db->update($query, $params);
+    }
+
+    public function delete($query, $params)
+    {
+        $this->db->delete($query, $params);
+    }
+
+}
