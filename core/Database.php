@@ -45,7 +45,7 @@ class Database extends Controller {
         return $data;
     }
 
-    public function fetch_obj($query)
+    public function fetch_obj($query, $params)
     {
         $stmt = $this->db->prepare($query);
         $stmt->execute($params);
